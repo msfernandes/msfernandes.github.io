@@ -6620,7 +6620,7 @@ meta.foundation-mq-topbar {
 }
 /* line 123, ../_sass/foundation/components/_top-bar.scss */
 .contain-to-grid .top-bar {
-  margin-bottom: 1.25rem;
+  margin-bottom: 0;
 }
 
 /* line 127, ../_sass/foundation/components/_top-bar.scss */
@@ -6657,7 +6657,7 @@ meta.foundation-mq-topbar {
   line-height: 4.375rem;
   position: relative;
   background: #3d2a20;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0;
 }
 /* line 162, ../_sass/foundation/components/_top-bar.scss */
 .top-bar ul {
@@ -7144,7 +7144,7 @@ meta.foundation-mq-topbar {
   .contain-to-grid .top-bar {
     max-width: 75rem;
     margin: 0 auto;
-    margin-bottom: 1.25rem;
+    margin-bottom: 0;
   }
 
   /* line 490, ../_sass/foundation/components/_top-bar.scss */
