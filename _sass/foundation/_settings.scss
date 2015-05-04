@@ -206,7 +206,7 @@ $body-font-family: $font-questrial;
 // $header-font-family: $body-font-family;
 // $header-font-weight: $font-weight-normal;
 // $header-font-style: normal;
-// $header-font-color: $jet;
+$header-font-color: $dark-brown;
 // $header-line-height: 1.4;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
@@ -267,9 +267,9 @@ $body-font-family: $font-questrial;
 // $anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -14%);
 
 // We use these to style the <hr> element
-// $hr-border-width: 1px;
+$hr-border-width: rem-calc(.5);
 // $hr-border-style: solid;
-// $hr-border-color: $gainsboro;
+$hr-border-color: $ligth-brown;
 // $hr-margin: rem-calc(20);
 
 // We use these to style lists

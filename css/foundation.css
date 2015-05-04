@@ -7654,7 +7654,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Questrial", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #222222;
+  color: #3d2a20;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -7663,7 +7663,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 262, ../_sass/foundation/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-size: 60%;
-  color: #6f6f6f;
+  color: #9d6c52;
   line-height: 0;
 }
 
@@ -7700,7 +7700,7 @@ h6 {
 /* line 276, ../_sass/foundation/components/_type.scss */
 .subheader {
   line-height: 1.4;
-  color: #6f6f6f;
+  color: #9d6c52;
   font-weight: normal;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -7708,10 +7708,10 @@ h6 {
 
 /* line 278, ../_sass/foundation/components/_type.scss */
 hr {
-  border: solid #DDDDDD;
-  border-width: 1px 0 0;
+  border: solid #a67a60;
+  border-width: 0.03125rem 0 0;
   clear: both;
-  margin: 1.25rem 0 1.1875rem;
+  margin: 1.25rem 0 1.24805rem;
   height: 0;
 }
 
@@ -7860,7 +7860,7 @@ blockquote {
 blockquote cite {
   display: block;
   font-size: 0.8125rem;
-  color: #555555;
+  color: #7c5541;
 }
 /* line 408, ../_sass/foundation/components/_type.scss */
 blockquote cite:before {
@@ -7869,14 +7869,14 @@ blockquote cite:before {
 /* line 412, ../_sass/foundation/components/_type.scss */
 blockquote cite a,
 blockquote cite a:visited {
-  color: #555555;
+  color: #7c5541;
 }
 
 /* line 418, ../_sass/foundation/components/_type.scss */
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #6f6f6f;
+  color: #9d6c52;
 }
 
 /* Microformats */
@@ -9161,4 +9161,29 @@ th.hide-for-touch {
 .topbar-title {
   background: #36251c;
   font-family: "Quicksand", sans-serif;
+}
+
+/* line 6, ../_sass/_customclasses.scss */
+.footer {
+  text-align: center;
+}
+
+/* line 10, ../_sass/_customclasses.scss */
+.content {
+  margin-top: 0.625rem;
+}
+
+/* line 14, ../_sass/_customclasses.scss */
+.home-post {
+  padding: 0.625rem;
+}
+/* line 17, ../_sass/_customclasses.scss */
+.home-post:hover {
+  background: #cac3ba;
+}
+
+/* line 22, ../_sass/_customclasses.scss */
+.github-icon {
+  text-align: center;
+  width: 2.5%;
 }

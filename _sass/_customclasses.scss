@@ -2,3 +2,24 @@
     background: darken($topbar-bg, 2);
     font-family: $font-quicksand;
 }
+
+.footer {
+    text-align: center;
+}
+
+.content {
+    margin-top: rem-calc(10);
+}
+
+.home-post {
+    padding: rem-calc(10);
+
+    &:hover {
+        background: darken($body-bg, 10);
+    }
+}
+
+.github-icon {
+    text-align: center;
+    width: 2.5%;
+}

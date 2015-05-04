@@ -2,22 +2,27 @@
 layout: default
 ---
 
-<div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
+<div class="row">
+  <div class="small-12 medium-6 large-6 columns">
+    <h1>Sobre mim...</h1>
+    <hr>
+    <p class="text-justify"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ad, pariatur quis vero, harum, iure itaque consequatur illum corporis accusamus dignissimos, hic! Quaerat perferendis at qui ipsum quo deleniti necessitatibus.</span><span>Deleniti accusamus cum saepe architecto excepturi hic blanditiis perspiciatis, maxime aperiam vitae delectus. Sunt, magnam! Veniam repellendus similique quaerat natus deleniti aspernatur eveniet quam suscipit aliquam perferendis nisi, iure rerum!</span></p>
+  </div>
+  <div class="small-12 medium-6 large-6 columns">
+    <h1>Posts</h1>
+    <hr>
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+      <div class="row home-post">
+        <h3><small>[{{ post.date | date: "%d.%m.%Y" }}] </small><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h3>
+        <p>
+        {% for categorie in post.categories %}
+          <span class="round label">{{categorie}}</span>
+        {% endfor %}
+        </p>
+        <p>{{post.resume}}</p>
+      </div>
     {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  </div>
 </div>
