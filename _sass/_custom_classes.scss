@@ -1,0 +1,26 @@
+.main-title-font {
+    font-family: $font-quicksand;
+    font-size: $h1-fontsize;
+}
+
+.main-content {
+    // margin-left: 1%;
+}
+
+.main-title-bg {
+    background: $secondary-color;
+    padding-top: 5rem;
+    height: 10rem;
+}
+
+.main-container {
+    @extend .container;
+    // @extend .valign-wrapper;
+    margin-top: 3rem;
+    height: 20rem;
+}
+
+.nav-logo {
+    @extend .valign-wrapper;
+    height: 10rem;
+}
