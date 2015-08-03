@@ -4,7 +4,8 @@
 }
 
 .main-content {
-    // margin-left: 1%;
+    @extend .container;
+    margin-top: 3rem;
 }
 
 .main-title-bg {
