@@ -9202,7 +9202,7 @@ small {
   position: absolute;
   bottom: 0;
   height: 2px;
-  background-color: #00b59f;
+  background-color: #00b69f;
   will-change: left, right;
 }
 
@@ -12576,14 +12576,86 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   background: #80cbc4;
   padding-top: 5rem;
   height: 10rem;
+  overflow: hidden;
 }
 
-/* line 17, ../_sass/_custom_classes.scss */
+/* line 18, ../_sass/_custom_classes.scss */
 .main-container {
   margin-top: 3rem;
 }
 
-/* line 24, ../_sass/_custom_classes.scss */
+/* line 25, ../_sass/_custom_classes.scss */
 .nav-logo {
   height: 10rem;
+}
+
+/* line 30, ../_sass/_custom_classes.scss */
+.social-links {
+  margin-top: 3rem;
+  width: 100%;
+  height: 3rem;
+  border-top: solid 0.5px #b2dfdb;
+  text-align: center;
+}
+
+/* line 38, ../_sass/_custom_classes.scss */
+.social-links ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+/* line 43, ../_sass/_custom_classes.scss */
+.social-links-anim, .social-links li a, .linkedin:hover, .google-plus:hover, .github:hover, .instagram:hover {
+  transition-duration: 0.5s;
+  transition-property: all;
+}
+
+/* line 48, ../_sass/_custom_classes.scss */
+.social-links li {
+  float: left;
+  padding: 0.3rem;
+}
+/* line 52, ../_sass/_custom_classes.scss */
+.social-links li a {
+  color: #e0e0e0;
+}
+
+/* line 58, ../_sass/_custom_classes.scss */
+.linkedin:hover {
+  color: #0077b5;
+}
+
+/* line 63, ../_sass/_custom_classes.scss */
+.google-plus:hover {
+  color: #d32f2f;
+}
+
+/* line 68, ../_sass/_custom_classes.scss */
+.github:hover {
+  color: #000000;
+}
+
+/* line 73, ../_sass/_custom_classes.scss */
+.instagram:hover {
+  color: #5d4037;
+}
+
+/* line 78, ../_sass/_custom_classes.scss */
+.header-text {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+/* line 83, ../_sass/_custom_classes.scss */
+p {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+/* line 91, ../_sass/_custom_classes.scss */
+.info {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #bdbdbd;
 }
