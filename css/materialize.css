@@ -1224,7 +1224,7 @@
 }
 
 /* line 381, ../_sass/components/_color.scss */
-.teal-text.text-lighten-5 {
+.teal-text.text-lighten-5, .text-lighten-5.skill-title, .text-lighten-5.experience-title {
   color: #e0f2f1 !important;
 }
 
@@ -1234,7 +1234,7 @@
 }
 
 /* line 381, ../_sass/components/_color.scss */
-.teal-text.text-lighten-4 {
+.teal-text.text-lighten-4, .text-lighten-4.skill-title, .text-lighten-4.experience-title {
   color: #b2dfdb !important;
 }
 
@@ -1244,7 +1244,7 @@
 }
 
 /* line 381, ../_sass/components/_color.scss */
-.teal-text.text-lighten-3 {
+.teal-text.text-lighten-3, .text-lighten-3.skill-title, .text-lighten-3.experience-title {
   color: #80cbc4 !important;
 }
 
@@ -1254,7 +1254,7 @@
 }
 
 /* line 381, ../_sass/components/_color.scss */
-.teal-text.text-lighten-2 {
+.teal-text.text-lighten-2, .text-lighten-2.skill-title, .text-lighten-2.experience-title {
   color: #4db6ac !important;
 }
 
@@ -1264,7 +1264,7 @@
 }
 
 /* line 381, ../_sass/components/_color.scss */
-.teal-text.text-lighten-1 {
+.teal-text.text-lighten-1, .text-lighten-1.skill-title, .text-lighten-1.experience-title {
   color: #26a69a !important;
 }
 
@@ -1274,7 +1274,7 @@
 }
 
 /* line 373, ../_sass/components/_color.scss */
-.teal-text {
+.teal-text, .skill-title, .experience-title {
   color: #009688 !important;
 }
 
@@ -1284,7 +1284,7 @@
 }
 
 /* line 381, ../_sass/components/_color.scss */
-.teal-text.text-darken-1 {
+.teal-text.text-darken-1, .text-darken-1.skill-title, .text-darken-1.experience-title {
   color: #00897b !important;
 }
 
@@ -1294,7 +1294,7 @@
 }
 
 /* line 381, ../_sass/components/_color.scss */
-.teal-text.text-darken-2 {
+.teal-text.text-darken-2, .text-darken-2.skill-title, .text-darken-2.experience-title {
   color: #00796b !important;
 }
 
@@ -1304,7 +1304,7 @@
 }
 
 /* line 381, ../_sass/components/_color.scss */
-.teal-text.text-darken-3 {
+.teal-text.text-darken-3, .text-darken-3.skill-title, .text-darken-3.experience-title {
   color: #00695c !important;
 }
 
@@ -1314,7 +1314,7 @@
 }
 
 /* line 381, ../_sass/components/_color.scss */
-.teal-text.text-darken-4 {
+.teal-text.text-darken-4, .text-darken-4.skill-title, .text-darken-4.experience-title {
   color: #004d40 !important;
 }
 
@@ -1324,7 +1324,7 @@
 }
 
 /* line 381, ../_sass/components/_color.scss */
-.teal-text.text-accent-1 {
+.teal-text.text-accent-1, .text-accent-1.skill-title, .text-accent-1.experience-title {
   color: #a7ffeb !important;
 }
 
@@ -1334,7 +1334,7 @@
 }
 
 /* line 381, ../_sass/components/_color.scss */
-.teal-text.text-accent-2 {
+.teal-text.text-accent-2, .text-accent-2.skill-title, .text-accent-2.experience-title {
   color: #64ffda !important;
 }
 
@@ -1344,7 +1344,7 @@
 }
 
 /* line 381, ../_sass/components/_color.scss */
-.teal-text.text-accent-3 {
+.teal-text.text-accent-3, .text-accent-3.skill-title, .text-accent-3.experience-title {
   color: #1de9b6 !important;
 }
 
@@ -1354,7 +1354,7 @@
 }
 
 /* line 381, ../_sass/components/_color.scss */
-.teal-text.text-accent-4 {
+.teal-text.text-accent-4, .text-accent-4.skill-title, .text-accent-4.experience-title {
   color: #00bfa5 !important;
 }
 
@@ -2544,7 +2544,7 @@
 }
 
 /* line 381, ../_sass/components/_color.scss */
-.grey-text.text-lighten-5 {
+.grey-text.text-lighten-5, .text-lighten-5.experience-time {
   color: #fafafa !important;
 }
 
@@ -2554,7 +2554,7 @@
 }
 
 /* line 381, ../_sass/components/_color.scss */
-.grey-text.text-lighten-4 {
+.grey-text.text-lighten-4, .text-lighten-4.experience-time {
   color: #f5f5f5 !important;
 }
 
@@ -2564,7 +2564,7 @@
 }
 
 /* line 381, ../_sass/components/_color.scss */
-.grey-text.text-lighten-3 {
+.grey-text.text-lighten-3, .text-lighten-3.experience-time {
   color: #eeeeee !important;
 }
 
@@ -2574,7 +2574,7 @@
 }
 
 /* line 381, ../_sass/components/_color.scss */
-.grey-text.text-lighten-2 {
+.grey-text.text-lighten-2, .text-lighten-2.experience-time {
   color: #e0e0e0 !important;
 }
 
@@ -2584,7 +2584,7 @@
 }
 
 /* line 381, ../_sass/components/_color.scss */
-.grey-text.text-lighten-1 {
+.grey-text.text-lighten-1, .text-lighten-1.experience-time {
   color: #bdbdbd !important;
 }
 
@@ -2594,7 +2594,7 @@
 }
 
 /* line 373, ../_sass/components/_color.scss */
-.grey-text {
+.grey-text, .experience-time {
   color: #9e9e9e !important;
 }
 
@@ -2604,7 +2604,7 @@
 }
 
 /* line 381, ../_sass/components/_color.scss */
-.grey-text.text-darken-1 {
+.grey-text.text-darken-1, .text-darken-1.experience-time {
   color: #757575 !important;
 }
 
@@ -2614,7 +2614,7 @@
 }
 
 /* line 381, ../_sass/components/_color.scss */
-.grey-text.text-darken-2 {
+.grey-text.text-darken-2, .text-darken-2.experience-time {
   color: #616161 !important;
 }
 
@@ -2624,7 +2624,7 @@
 }
 
 /* line 381, ../_sass/components/_color.scss */
-.grey-text.text-darken-3 {
+.grey-text.text-darken-3, .text-darken-3.experience-time {
   color: #424242 !important;
 }
 
@@ -2634,7 +2634,7 @@
 }
 
 /* line 381, ../_sass/components/_color.scss */
-.grey-text.text-darken-4 {
+.grey-text.text-darken-4, .text-darken-4.experience-time {
   color: #212121 !important;
 }
 
@@ -12658,4 +12658,61 @@ p {
   font-size: 0.8rem;
   font-weight: 500;
   color: #bdbdbd;
+}
+
+/* line 102, ../_sass/_custom_classes.scss */
+.skill-title, .experience-title {
+  font-size: 2rem;
+  font-family: "Quicksand", sans-serif;
+}
+
+/* line 108, ../_sass/_custom_classes.scss */
+.skills-box {
+  margin-top: 1rem;
+}
+/* line 110, ../_sass/_custom_classes.scss */
+.skills-box span {
+  font-size: 0.8rem;
+}
+/* line 114, ../_sass/_custom_classes.scss */
+.skills-box .progress {
+  margin-top: 0;
+}
+
+/* line 123, ../_sass/_custom_classes.scss */
+.experience-time {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* line 129, ../_sass/_custom_classes.scss */
+.experience-job {
+  margin: 0;
+  margin-top: -10px;
+  font-size: 1.4rem;
+  font-style: italic;
+}
+
+/* line 137, ../_sass/_custom_classes.scss */
+.experience-attribuitions ul {
+  list-style-type: circle;
+}
+/* line 141, ../_sass/_custom_classes.scss */
+.experience-attribuitions li {
+  list-style-type: circle;
+}
+
+/* line 146, ../_sass/_custom_classes.scss */
+.experience-row {
+  border-bottom: solid 0.5px #b2dfdb;
+}
+
+/* line 151, ../_sass/_custom_classes.scss */
+.last {
+  border-bottom: none;
+}
+
+/* line 154, ../_sass/_custom_classes.scss */
+.gdf {
+  width: 8rem;
 }

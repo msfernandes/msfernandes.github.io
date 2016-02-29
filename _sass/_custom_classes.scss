@@ -98,3 +98,59 @@ p {
 .info-value {
 
 }
+
+.skill-title {
+  @extend .teal-text;
+  font-size: 2rem;
+  font-family: "Quicksand", sans-serif;
+}
+
+.skills-box {
+  margin-top: 1rem;
+  span {
+    font-size: 0.8rem;
+  }
+
+  .progress {
+    margin-top: 0;
+  }
+}
+
+.experience-title {
+  @extend .skill-title;
+}
+
+.experience-time {
+  @extend .grey-text;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.experience-job {
+  margin: 0;
+  margin-top: -10px;
+  font-size: 1.4rem;
+  font-style: italic;
+}
+
+.experience-attribuitions {
+  ul {
+    list-style-type: circle;
+  }
+
+  li {
+    list-style-type: circle;
+  }
+}
+
+.experience-row {
+  border-bottom: solid 0.5px color("teal", "lighten-4");
+
+}
+
+.last {
+  border-bottom: none;
+}
+.gdf {
+  width: 8rem;
+}
