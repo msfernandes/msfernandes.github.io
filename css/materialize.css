@@ -12693,26 +12693,40 @@ p {
   font-style: italic;
 }
 
-/* line 137, ../_sass/_custom_classes.scss */
+/* line 136, ../_sass/_custom_classes.scss */
+.experience-attribuitions {
+  padding-left: 2rem;
+}
+/* line 138, ../_sass/_custom_classes.scss */
 .experience-attribuitions ul {
   list-style-type: circle;
 }
-/* line 141, ../_sass/_custom_classes.scss */
+/* line 142, ../_sass/_custom_classes.scss */
 .experience-attribuitions li {
   list-style-type: circle;
 }
 
-/* line 146, ../_sass/_custom_classes.scss */
+/* line 147, ../_sass/_custom_classes.scss */
 .experience-row {
   border-bottom: solid 0.5px #b2dfdb;
 }
 
-/* line 151, ../_sass/_custom_classes.scss */
+/* line 152, ../_sass/_custom_classes.scss */
 .last {
   border-bottom: none;
 }
 
-/* line 154, ../_sass/_custom_classes.scss */
+/* line 155, ../_sass/_custom_classes.scss */
 .gdf {
+  width: 8rem;
+}
+
+/* line 159, ../_sass/_custom_classes.scss */
+.lappis {
+  width: 10rem;
+}
+
+/* line 163, ../_sass/_custom_classes.scss */
+.pencil {
   width: 8rem;
 }
