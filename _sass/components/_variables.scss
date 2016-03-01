@@ -1,9 +1,10 @@
 /*** Colors ***/
-$primary-color: color("teal", "darken-3") !default;
+// $primary-color: color("teal", "darken-3") !default;
+$primary-color: #49708A !default;
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
 
-$secondary-color: color("teal", "lighten-3") !default;
+$secondary-color: #D0E0EB !default;
 $success-color: color("teal", "accent-3") !default;
 $error-color: color("orange", "darken-4") !default;
 $link-color: color("indigo", "lighten-3") !default;
