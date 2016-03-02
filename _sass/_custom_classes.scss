@@ -1,30 +1,10 @@
-.main-title-font {
-    font-family: $font-quicksand;
-    font-size: $h1-fontsize;
-}
-
 .main-content {
     @extend .container;
     margin-top: 3rem;
-}
 
-.main-title-bg {
-    background: $secondary-color;
-    padding-top: 5rem;
-    height: 10rem;
-    overflow: hidden;
-}
-
-.main-container {
-    @extend .container;
-    // @extend .valign-wrapper;
-    margin-top: 3rem;
-    // height: 20rem;
-}
-
-.nav-logo {
-    @extend .valign-wrapper;
-    height: 10rem;
+    .row {
+      margin-bottom: 0;
+    }
 }
 
 .social-links {
@@ -86,83 +66,11 @@ p {
 }
 
 .contact-info {
+  font-weight: 300;
 }
 
 .info {
   margin-top: 0.5rem;
   font-size: 0.8rem;
-  font-weight: 500;
   color: color("grey", "lighten-1");
-}
-
-.info-value {
-
-}
-
-.skill-title {
-  color: #a3cf35;
-  font-size: 2rem;
-  font-family: "Quicksand", sans-serif;
-}
-
-.skills-box {
-  margin-top: 1rem;
-  span {
-    font-size: 0.8rem;
-  }
-
-  .progress {
-    margin-top: 0;
-    .determinate {
-      background-color: #a3cf35;
-    }
-  }
-}
-
-.experience-title {
-  @extend .skill-title;
-}
-
-.experience-time {
-  @extend .grey-text;
-  margin: 0;
-  font-size: 1rem;
-}
-
-.experience-job {
-  margin: 0;
-  margin-top: -10px;
-  font-size: 1.4rem;
-  font-style: italic;
-}
-
-.experience-attribuitions {
-  padding-left: 2rem;
-  ul {
-    list-style-type: circle;
-  }
-
-  li {
-    list-style-type: circle;
-  }
-}
-
-.experience-row {
-  border-bottom: solid 0.5px color("grey", "lighten-2");
-
-}
-
-.last {
-  border-bottom: none;
-}
-.gdf {
-  width: 8rem;
-}
-
-.lappis {
-  width: 10rem;
-}
-
-.pencil {
-  width: 8rem;
 }
