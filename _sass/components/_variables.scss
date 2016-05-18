@@ -3,6 +3,7 @@
 $primary-color: #49708A !default;
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
+$primary-white: #EFEFEF !default;
 
 $secondary-color: rgba(#9bb2c2, 0.73) !default;
 $success-color: color("teal", "accent-3") !default;

@@ -3302,7 +3302,7 @@ i.large {
 }
 
 /* line 133, ../_sass/components/_global.scss */
-img.responsive-img,
+img.responsive-img, img.blog-post-img,
 video.responsive-video {
   max-width: 100%;
   height: auto;
@@ -8937,13 +8937,13 @@ small {
   border-radius: 2px;
 }
 /* line 22, ../_sass/components/_cards.scss */
-.card .card-title {
+.card .card-title, .card .blog-card-title {
   color: #fff;
   font-size: 24px;
   font-weight: 300;
 }
 /* line 26, ../_sass/components/_cards.scss */
-.card .card-title.activator {
+.card .card-title.activator, .card .blog-card-title {
   cursor: pointer;
 }
 /* line 32, ../_sass/components/_cards.scss */
@@ -8951,7 +8951,7 @@ small {
   position: relative;
 }
 /* line 35, ../_sass/components/_cards.scss */
-.card.small .card-image, .card.medium .card-image, .card.large .card-image {
+.card.small .card-image, .card.small .blog-card-img, .card.medium .card-image, .card.medium .blog-card-img, .card.large .card-image, .card.large .blog-card-img {
   overflow: hidden;
 }
 /* line 38, ../_sass/components/_cards.scss */
@@ -8970,7 +8970,7 @@ small {
   height: 300px;
 }
 /* line 52, ../_sass/components/_cards.scss */
-.card.small .card-image {
+.card.small .card-image, .card.small .blog-card-img {
   height: 150px;
 }
 /* line 55, ../_sass/components/_cards.scss */
@@ -8982,7 +8982,7 @@ small {
   height: 400px;
 }
 /* line 64, ../_sass/components/_cards.scss */
-.card.medium .card-image {
+.card.medium .card-image, .card.medium .blog-card-img {
   height: 250px;
 }
 /* line 67, ../_sass/components/_cards.scss */
@@ -8994,7 +8994,7 @@ small {
   height: 500px;
 }
 /* line 75, ../_sass/components/_cards.scss */
-.card.large .card-image {
+.card.large .card-image, .card.large .blog-card-img {
   height: 330px;
 }
 /* line 78, ../_sass/components/_cards.scss */
@@ -9002,11 +9002,11 @@ small {
   height: 170px;
 }
 /* line 84, ../_sass/components/_cards.scss */
-.card .card-image {
+.card .card-image, .card .blog-card-img {
   position: relative;
 }
 /* line 88, ../_sass/components/_cards.scss */
-.card .card-image img {
+.card .card-image img, .card .blog-card-img img {
   border-radius: 2px 2px 0 0;
   position: relative;
   left: 0;
@@ -9016,7 +9016,7 @@ small {
   width: 100%;
 }
 /* line 98, ../_sass/components/_cards.scss */
-.card .card-image .card-title {
+.card .card-image .card-title, .card .blog-card-img .card-title, .card .card-image .blog-card-title, .card .blog-card-img .blog-card-title {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -9033,7 +9033,7 @@ small {
   color: inherit;
 }
 /* line 116, ../_sass/components/_cards.scss */
-.card .card-content .card-title {
+.card .card-content .card-title, .card .card-content .blog-card-title {
   line-height: 48px;
 }
 /* line 121, ../_sass/components/_cards.scss */
@@ -9069,7 +9069,7 @@ small {
   display: none;
 }
 /* line 146, ../_sass/components/_cards.scss */
-.card .card-reveal .card-title {
+.card .card-reveal .card-title, .card .card-reveal .blog-card-title {
   cursor: pointer;
   display: block;
 }
@@ -12579,7 +12579,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 }
 
 /* line 11, ../_sass/_custom_classes.scss */
-.main-title-bg {
+.main-title-bg, .blog-title-bg {
   background: rgba(155, 178, 194, 0.73);
   padding-top: 5rem;
   height: 10rem;
@@ -12733,4 +12733,66 @@ p {
 /* line 161, ../_sass/_custom_classes.scss */
 .pencil {
   width: 8rem;
+}
+
+/* line 165, ../_sass/_custom_classes.scss */
+.blog-title-bg {
+  background: rgba(234, 239, 242, 0.73);
+  padding-top: 1rem;
+  height: 7rem;
+}
+
+/* line 172, ../_sass/_custom_classes.scss */
+.blog-title-color {
+  color: #49708A;
+}
+
+/* line 176, ../_sass/_custom_classes.scss */
+.blog-card-title {
+  color: #2f4758 !important;
+}
+
+/* line 185, ../_sass/_custom_classes.scss */
+.blog-card-img {
+  height: 15rem;
+}
+
+/* line 190, ../_sass/_custom_classes.scss */
+.blog-post-date {
+  font-size: 1rem;
+}
+
+/* line 194, ../_sass/_custom_classes.scss */
+.blog-post-resume {
+  font-size: 1.1rem;
+}
+
+/* line 198, ../_sass/_custom_classes.scss */
+.post-image {
+  background: rgba(255, 255, 255, 0.2);
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.2), black);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(255, 255, 255, 0.2), black);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(255, 255, 255, 0.2), black);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(255, 255, 255, 0.2), black);
+  /* Standard syntax */
+}
+
+/* line 206, ../_sass/_custom_classes.scss */
+.parallax-container {
+  height: 22rem;
+}
+/* line 208, ../_sass/_custom_classes.scss */
+.parallax-container h1 {
+  color: white;
+  padding-top: 14rem;
+  font-family: "Quicksand", sans-serif;
+}
+
+/* line 217, ../_sass/_custom_classes.scss */
+.brand-logo .inactive {
+  color: rgba(155, 178, 194, 0.73);
 }

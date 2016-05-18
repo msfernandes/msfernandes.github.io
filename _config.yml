@@ -13,4 +13,4 @@ github_username: msfernandes
 markdown: kramdown
 
 sass:
-    sass_dir: _sass
+  sass_dir: _sass
