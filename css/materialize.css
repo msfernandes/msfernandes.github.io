@@ -3973,7 +3973,7 @@ span.badge.new:after {
 }
 
 /* line 685, ../_sass/components/_global.scss */
-.right {
+.right, .post-title-container span {
   float: right !important;
 }
 
@@ -8086,7 +8086,7 @@ span.badge.new:after {
 }
 
 /* line 1, ../_sass/components/_grid.scss */
-.container, .main-content, .main-container {
+.container, .main-content, .main-container, .post-title-container {
   margin: 0 auto;
   max-width: 1280px;
   width: 90%;
@@ -8094,18 +8094,18 @@ span.badge.new:after {
 
 @media only screen and (min-width: 601px) {
   /* line 7, ../_sass/components/_grid.scss */
-  .container, .main-content, .main-container {
+  .container, .main-content, .main-container, .post-title-container {
     width: 85%;
   }
 }
 @media only screen and (min-width: 993px) {
   /* line 12, ../_sass/components/_grid.scss */
-  .container, .main-content, .main-container {
+  .container, .main-content, .main-container, .post-title-container {
     width: 70%;
   }
 }
 /* line 16, ../_sass/components/_grid.scss */
-.container .row, .main-content .row, .main-container .row {
+.container .row, .main-content .row, .main-container .row, .post-title-container .row {
   margin-left: -0.75rem;
   margin-right: -0.75rem;
 }
@@ -8548,7 +8548,7 @@ nav .brand-logo.center {
   }
 }
 /* line 60, ../_sass/components/_navbar.scss */
-nav .brand-logo.right {
+nav .brand-logo.right, nav .post-title-container span.brand-logo, .post-title-container nav span.brand-logo {
   right: 0.5rem;
   padding: 0;
 }
@@ -11549,7 +11549,7 @@ select {
   transform: rotate(129deg);
 }
 /* line 272, ../_sass/components/_preloader.scss */
-.circle-clipper.right .circle {
+.circle-clipper.right .circle, .post-title-container span.circle-clipper .circle {
   left: -100%;
   border-left-color: transparent !important;
   -webkit-transform: rotate(-129deg);
@@ -11564,7 +11564,7 @@ select {
 }
 
 /* line 288, ../_sass/components/_preloader.scss */
-.active .circle-clipper.right .circle {
+.active .circle-clipper.right .circle, .active .post-title-container span.circle-clipper .circle, .post-title-container .active span.circle-clipper .circle {
   /* duration: ARCTIME */
   -webkit-animation: right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   animation: right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
@@ -12785,15 +12785,32 @@ p {
 .parallax-container {
   height: 22rem;
 }
-/* line 208, ../_sass/_custom_classes.scss */
-.parallax-container h1 {
-  color: white;
-  font-size: 4rem;
-  padding-top: 14rem;
-  font-family: "Quicksand", sans-serif;
+
+/* line 210, ../_sass/_custom_classes.scss */
+.post-title-bg {
+  background: rgba(234, 239, 242, 0.73);
+  padding-top: 1rem;
 }
 
-/* line 218, ../_sass/_custom_classes.scss */
+/* line 215, ../_sass/_custom_classes.scss */
+.post-title-container {
+  margin-bottom: 3rem;
+}
+/* line 219, ../_sass/_custom_classes.scss */
+.post-title-container h1 {
+  color: #49708A;
+  font-size: 4rem;
+  margin-bottom: 0;
+  font-family: "Quicksand", sans-serif;
+}
+/* line 226, ../_sass/_custom_classes.scss */
+.post-title-container span {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/* line 235, ../_sass/_custom_classes.scss */
 .brand-logo .inactive {
   color: rgba(155, 178, 194, 0.73);
 }

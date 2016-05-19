@@ -16,8 +16,11 @@
 
     <div class="parallax-container post-image">
       <div class="parallax"><img src="/images/{{page.image}}"></div>
-      <div class="container">
+    </div>
+    <div class="post-title-bg">
+      <div class="post-title-container">
         <h1><a href="/blog"><i class="medium mdi mdi-chevron-left"></i></a>{{page.title}}</h1>
+        <span>{{ page.date | date: '%B %d, %Y' }}</span>
       </div>
     </div>
 

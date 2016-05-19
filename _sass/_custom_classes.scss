@@ -205,12 +205,29 @@ p {
 
 .parallax-container {
   height: 22rem;
-  h1 {
-    color: white;
-    font-size: 4rem;
-    padding-top: 14rem;
-    font-family: "Quicksand", sans-serif;
+}
 
+.post-title-bg {
+  background: lighten($secondary-color, 25);
+  padding-top: 1rem;
+}
+
+.post-title-container {
+  @extend .container;
+  // border-bottom: solid 1px $primary-color-light;
+  margin-bottom: 3rem;
+  h1 {
+    color: $primary-color;
+    font-size: 4rem;
+    margin-bottom: 0;
+    font-family: "Quicksand", sans-serif;
+  }
+
+  span {
+    @extend .right;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
   }
 }
 
