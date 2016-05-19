@@ -12788,11 +12788,12 @@ p {
 /* line 208, ../_sass/_custom_classes.scss */
 .parallax-container h1 {
   color: white;
+  font-size: 4rem;
   padding-top: 14rem;
   font-family: "Quicksand", sans-serif;
 }
 
-/* line 217, ../_sass/_custom_classes.scss */
+/* line 218, ../_sass/_custom_classes.scss */
 .brand-logo .inactive {
   color: rgba(155, 178, 194, 0.73);
 }
