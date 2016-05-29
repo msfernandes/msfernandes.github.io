@@ -35,7 +35,7 @@
   text-align: center;
 }
 
-.social-links ul {
+.social-links > ul {
   display: inline-block;
   list-style-type: none;
 }
@@ -235,4 +235,11 @@ p {
   .inactive {
     color: $secondary-color;
   }
+}
+
+.post-list > ul > li {
+  list-style-type: disc;
+  list-style-position: inside;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.3rem;
 }

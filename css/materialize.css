@@ -12606,7 +12606,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 }
 
 /* line 38, ../_sass/_custom_classes.scss */
-.social-links ul {
+.social-links > ul {
   display: inline-block;
   list-style-type: none;
 }
@@ -12813,4 +12813,12 @@ p {
 /* line 235, ../_sass/_custom_classes.scss */
 .brand-logo .inactive {
   color: rgba(155, 178, 194, 0.73);
+}
+
+/* line 240, ../_sass/_custom_classes.scss */
+.post-list > ul > li {
+  list-style-type: disc;
+  list-style-position: inside;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.3rem;
 }
