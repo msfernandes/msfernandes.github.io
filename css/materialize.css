@@ -12822,3 +12822,7 @@ p {
   font-family: "Quicksand", sans-serif;
   font-size: 1.3rem;
 }
+/* line 245, ../_sass/_custom_classes.scss */
+.post-list > ul > li strong {
+  font-weight: bold;
+}
