@@ -12826,3 +12826,28 @@ p {
 .post-list > ul > li strong {
   font-weight: bold;
 }
+
+/* line 250, ../_sass/_custom_classes.scss */
+.post-img {
+  text-align: center;
+}
+/* line 252, ../_sass/_custom_classes.scss */
+.post-img .img {
+  border: 2px solid white;
+  box-shadow: 0px 5px 5px #888888;
+}
+/* line 256, ../_sass/_custom_classes.scss */
+.post-img .small {
+  width: 25%;
+  height: auto;
+}
+/* line 260, ../_sass/_custom_classes.scss */
+.post-img .medium {
+  width: 50%;
+  height: auto;
+}
+/* line 264, ../_sass/_custom_classes.scss */
+.post-img .large {
+  width: 100%;
+  height: auto;
+}
